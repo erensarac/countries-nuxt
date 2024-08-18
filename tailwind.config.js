@@ -10,6 +10,9 @@ export default {
       "very-light-gray": "hsl(0, 0%, 98%)",
       "white": "hsl(0, 0%, 100%)"
     },
+    fontFamily: {
+      sans: '"Nunito Sans"'
+    },
     extend: {},
   },
   plugins: [],
