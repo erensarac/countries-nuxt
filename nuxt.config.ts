@@ -5,5 +5,12 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   colorMode: {
     classSuffix: ''
-  }
+  },
+  app: {
+    head: {
+      bodyAttrs: {
+        class: 'min-h-screen bg-very-light-gray dark:bg-very-dark-blue',
+      },
+    },
+  },
 })
