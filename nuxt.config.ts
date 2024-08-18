@@ -15,8 +15,9 @@ export default defineNuxtConfig({
         'Nunito+Sans': {
           wght: [300, 600, 800],
         }
-      }
-    }]
+      }}
+    ],
+    "@nuxt/icon"
   ],
   colorMode: {
     classSuffix: ''
